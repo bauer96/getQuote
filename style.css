@@ -83,3 +83,20 @@ header, .content :where(i, p, span){
     border-radius: 30px;
     background: #4ECCA3;
   }
+
+  @media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 75%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .wrapper {
+        width: 75%;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    .wrapper {
+        width: 90%;
+    }
+  }
