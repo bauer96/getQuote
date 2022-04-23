@@ -4,7 +4,7 @@ authorName = document.querySelector(".name")
 
 function newRandomQuote(){
    
-    fetch("http://api.quotable.io/random").then(response => response.json()).then(result => {
+    fetch("https://api.quotable.io/random").then(response => response.json()).then(result => {
         quoteText.innerText = result.content;
         authorName.innerText = result.author;
         quoteBtn.classList.remove("loading");
