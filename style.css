@@ -95,6 +95,16 @@ header, .content :where(i, p, span){
         width: 75%;
     }
   }
+  @media only screen and (max-width: 428px) {
+    .wrapper {
+        width: 80%;
+    }
+  }
+  @media only screen and (max-height: 926px) {
+    .wrapper {
+        height: 90%;
+    }
+  }
   @media only screen and (max-width: 390px) {
     .wrapper {
         width: 90%;
